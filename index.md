@@ -153,7 +153,7 @@ hidden:
 
 newsfeed:
     - 
-	content: Setting up a new site layout so I can use some custom plugins!
+	content: Setting up a new site layout so I can use some custom plugins! Hopefully.
  	date: 15 April 2018
     - 
         content: Absolutely flabbergasted to announce that I won the <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=245024&org=NSF&from=news">NSF GRFP Fellowship!!!</a>
