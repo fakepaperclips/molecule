@@ -221,7 +221,7 @@ newsfeed:
 <div class="clearfix">
 
 <div style="float: left; text-align:center; width:240px; padding:10px; font-size:8px; line-height:8px">
-<img src="/src/img/1-jacket-glasses-chin-up.JPG"/>
+<img src="{{site.baseurl}}/src/img/1-jacket-glasses-chin-up.JPG"/>
 <span style="display:block;"> Fig. a) The author, enjoying everything very much, thank you. </span>
 </div>
 
