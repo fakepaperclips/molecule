@@ -1,20 +1,72 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title }}</title>
-        <description>{{ site.desc }}</description>
-        <link>{{ site.url }}</link>
-        {% for post in site.post reversed %}
+        <title>Molly Nicholas</title>
+        <description>Welcome to Molly's site, with information about her research in Human Computer Interaction, her work in the performing arts, and her many hiking and camping adventures.
+</description>
+        <link></link>
+        
             <item>
-                <title>{{ post.title | downcase | xml_escape }}</title>
-                <description>{{ post.content | strip_html | truncatewords: 30 | xml_escape }}</description>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-                <link>{{ post.url | prepend: site.url }}</link>
-                <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+                <title>natural fabric dye</title>
+                <description>Scarves I've colored with natural dye. These are my notes about natural dyeing. 1. Overview of process Start with clean fabric. If it’s not clean, you’ll need to scour it....</description>
+                <pubDate>2018-02-03T00:00:00+00:00</pubDate>
+                <link>/post/natural-fabric-dye/</link>
+                <guid isPermaLink="true">/post/natural-fabric-dye/</guid>
             </item>
-        {% endfor %}
+        
+            <item>
+                <title>foundational hci</title>
+                <description>As I enter my second year as a student of Human Computer Interaction, I’m enjoying having the chance to read foundational and modern papers that represent the field. These are...</description>
+                <pubDate>2017-09-01T00:00:00+00:00</pubDate>
+                <link>/post/Foundational%20HCI/</link>
+                <guid isPermaLink="true">/post/Foundational%20HCI/</guid>
+            </item>
+        
+            <item>
+                <title>prelims feedback from examiners</title>
+                <description>The two professors who examined me for my Prelim test have graciously given consent for me to post their detailed notes from the actual exam here. I’m sharing it here...</description>
+                <pubDate>2017-08-29T00:00:00+00:00</pubDate>
+                <link>/post/prelims%20feedback%20from%20examiners/</link>
+                <guid isPermaLink="true">/post/prelims%20feedback%20from%20examiners/</guid>
+            </item>
+        
+            <item>
+                <title>prelims from my perspective</title>
+                <description>I just finished taking my Prelim exam, and wrote up this brief – but hopefully helpful! – overview of how the day actually looked from my perspective. For those not...</description>
+                <pubDate>2017-08-25T00:00:00+00:00</pubDate>
+                <link>/post/prelims%20from%20my%20perspective/</link>
+                <guid isPermaLink="true">/post/prelims%20from%20my%20perspective/</guid>
+            </item>
+        
+            <item>
+                <title>capacitor polarity</title>
+                <description>There are several ways to recognize the polarity of your capacitor. Short leg is the negative side. Light stripe marks the negative side. The negative side should be connected to...</description>
+                <pubDate>2017-07-20T00:00:00+00:00</pubDate>
+                <link>/post/capacitor%20polarity/</link>
+                <guid isPermaLink="true">/post/capacitor%20polarity/</guid>
+            </item>
+        
+            <item>
+                <title>camping in new mexico</title>
+                <description>Carson National Forest
+208 Cruz Alta Road
+Taos, NM  87571
+(575) 758-6200
+
+Carson camping information
+</description>
+                <pubDate>2017-07-02T00:00:00+00:00</pubDate>
+                <link>/post/Camping%20in%20New%20Mexico/</link>
+                <guid isPermaLink="true">/post/Camping%20in%20New%20Mexico/</guid>
+            </item>
+        
+            <item>
+                <title>smd soldering tips</title>
+                <description>This is a collection of helpful videos that I used while I was learning to solder. General tips ALWAYS use leaded solder. NEVER use unleaded solder. It’s a huge pain...</description>
+                <pubDate>2017-06-13T00:00:00+00:00</pubDate>
+                <link>/post/SMD%20soldering%20tips/</link>
+                <guid isPermaLink="true">/post/SMD%20soldering%20tips/</guid>
+            </item>
+        
     </channel>
 </rss>

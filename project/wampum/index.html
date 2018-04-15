@@ -13,7 +13,7 @@
 ">
     <title>
       
-        molly nicholas - posts
+        molly nicholas - wampum
       
     </title>
 
@@ -36,7 +36,7 @@
     <meta property="og:site_name"   content="Molly Nicholas"/>
     <meta property="og:description" content=" Welcome to Molly's site, with information about her research in Human Computer Interaction, her work in the performing arts, and her many hiking and camping adventures.
  " />
-    <meta property="og:title"       content="Molly Nicholas  - posts "/>
+    <meta property="og:title"       content="Molly Nicholas  - wampum "/>
     <meta property="og:image"       content="  " />
   </head>
   <body>
@@ -60,65 +60,63 @@
 
       <div class="container">
         <div class="page">
-  # posts
+  <style>
+img { max-width: 500px; }
+</style>
 
-Nothing here yet... check back soon!
-<ul class="post-list">
+<h2 id="w-a-m-p-u-m">w. a. m. p. u. m.</h2>
 
-<li>
-<span class="post-meta">Feb 3, 2018</span>
-<a class="post-link" href="/post/natural-fabric-dye/">
-Natural Fabric Dye</a>
-</li>
+<p><img src="http://eddiesamuels.com/projects/wampum/images/5.glove2.jpg" alt="wampum glove" /></p>
 
-<li>
-<span class="post-meta">Sep 1, 2017</span>
-<a class="post-link" href="/post/Foundational%20HCI/">
-Foundational hci</a>
-</li>
+<h6 id="report--source--media"><a href="http://eddiesamuels.com/projects/wampum/attachments/user%20manual.pdf">report</a> – <a href="https://github.com/jeremywrnr/wampum">source</a> – <a href="http://eddiesamuels.com/projects/wampum/">media</a></h6>
 
-<li>
-<span class="post-meta">Aug 29, 2017</span>
-<a class="post-link" href="/post/prelims%20feedback%20from%20examiners/">
-Prelims feedback from examiners</a>
-</li>
+<p><strong>w</strong>ireless <strong>a</strong>ggregating <strong>m</strong>ultinode <strong>pu</strong>lse <strong>m</strong>onitor: a wireless
+network of heart rate monitors. <em>wampum</em> is a monitorable, semi-decentralized
+wireless network of low-power, low-cost heart rate monitoring nodes. It has a
+bracelet form factor, with a finger sensor, and uses photoplethysmography to
+detect pulses. Our targeted use case was medical emergency response teams that
+are looking to easily deploy a system to quickly monitor the condition of
+causalities of an emergency such as a natural disaster. Our senior capstone
+design project to was completed to achieve a <em>BS</em> in electrical and computer
+engineering from the University of Rochester, and was advised by <a href="http://www.ece.rochester.edu/~wheinzel">Prof.
+Heinzelman</a>.</p>
 
-<li>
-<span class="post-meta">Aug 25, 2017</span>
-<a class="post-link" href="/post/prelims%20from%20my%20perspective/">
-Prelims from my perspective</a>
-</li>
+<p><img src="/src/img/wampum.jpg" alt="team7" /></p>
 
-<li>
-<span class="post-meta">Jul 20, 2017</span>
-<a class="post-link" href="/post/capacitor%20polarity/">
-Capacitor polarity</a>
-</li>
+<h6 id="jae-choi--eddie-samuels--jeremy-warner--ivy-awuor">jae choi / <a href="http://eddiesamuels.com/">eddie samuels</a> / jeremy warner / ivy awuor</h6>
 
-<li>
-<span class="post-meta">Jul 2, 2017</span>
-<a class="post-link" href="/post/Camping%20in%20New%20Mexico/">
-Camping in new mexico</a>
-</li>
+<h3 id="dependencies">dependencies</h3>
 
-<li>
-<span class="post-meta">Jun 13, 2017</span>
-<a class="post-link" href="/post/SMD%20soldering%20tips/">
-Smd soldering tips</a>
-</li>
-
+<ul>
+  <li><a href="https://nodejs.org/">NodeJS</a></li>
+  <li><a href="http://arduino.cc/en/main/software">Arduino</a></li>
 </ul>
 
-<a href="/feed.xml">rss</a>
+<h3 id="cli-setup">cli setup</h3>
 
+<p>Getting the port of the base station:</p>
 
-<small> &copy; 2018 / Molly Jane Nicholas / [email][mail]</small>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ make port &gt;&gt; ino.ini
+</code></pre></div></div>
 
-[pg]:http://pgbovine.net
-[cs]:http://www.cs.rochester.edu
-[cal]:http://www.cs.berkeley.edu/
-[rss]:/feed.xml
-[mail]:mailto:molecule@berkeley.edu
+<p>Uploading code to the board:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ make up
+</code></pre></div></div>
+
+<p>Opening up a serial port:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ ino serial
+</code></pre></div></div>
+
+<h3 id="related-work">related work</h3>
+
+<ul>
+  <li><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6211562">Implementation of a Wireless Sensor Network for Heart Rate Monitoring in a Senior Center</a></li>
+  <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/25734335">Centralized heart rate monitoring telemetry system using ZigBee wireless sensor network</a></li>
+</ul>
+
+<p><small> © 2018 / Molly Jane Nicholas / <a href="mailto:jeremy.warner@berkeley.edu">email</a></small></p>
 
 
 </div>
